@@ -1,0 +1,175 @@
+/*majo css*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+
+
+header{
+    background-color: #305CAA;
+    width: 100%;
+  display: flex;
+   justify-content: space-between;
+   .navbar{
+    list-style: none;
+    display: flex;
+    margin-right: 20px;
+    margin-top: 50px;
+
+    }
+    a{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        margin-right: 10px;
+        margin-left: 20px;
+       
+    }
+
+   }
+   .navegacion a:hover{
+    color: red
+   }
+
+   .imagenheader{ 
+    margin-top: 10px;
+    margin-left: 10px;
+    margin: 10px;
+}
+
+h1{
+    color: #305CAA;
+    text-align: center;
+    font-size: 100px;
+    text-align: center;
+    margin: 20px;
+    margin-top: 20px;
+}
+
+.imgcontac{
+    width: 20px;
+}
+
+div{
+
+    p{
+        text-align: center;
+        justify-content: center;
+        margin: 40px;
+        font-size: 20px;
+
+        
+    }
+}
+h2{
+    text-align: center;
+    display: flex;
+    display: block;
+    color: #305CAA;
+    font-size: 40px;
+   }
+
+
+   footer{
+    background-color: #305CAA;
+    width: 100%;
+    .logofoot{
+        margin: 15px;
+        margin-top: 15px;
+        margin-left: 15px;
+    }
+
+    .instalogo{
+        float: right;
+        margin: 15px;
+        margin-top: 15px;
+        margin-right: 15px;
+       
+        }
+    }
+
+    .nosotros{
+        display: block;
+
+        
+        p{
+            margin-top: 100px;
+            font-size: 23px;
+            text-align: center;
+            margin-left: 100px;
+            margin-right: 100px;
+            margin-top: -200px;
+            margin: 100px;
+        }
+        .nosotrosh1{
+            text-align: center;
+
+            
+           
+            
+        }
+        .nosotrosimg{
+            width: 600px;
+            align-content: center;  
+           margin-left: 30%;
+           margin-right: 200px;
+           
+             
+            
+            
+
+        }
+    }
+    
+    .productos{
+
+        .productosgrilla {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            width: 80%;
+            margin: 0 auto;
+        }
+        
+        .grillaimg {
+            text-align: center;
+        }
+        
+        .grillaimg img {
+            width: 100%;
+            height: auto;
+        }
+        
+        .grillaimg p {
+            margin-top: 10px;
+            font-size: 16px;
+            color: #333;
+        }
+
+
+
+
+        .contactoseccion{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        
+        .todoformulario{
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+        }
+        .sobre{
+            
+            max-width: 100%;
+            height: auto;
+            
+
+                }
+       
+    }
+  
