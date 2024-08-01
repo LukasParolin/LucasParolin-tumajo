@@ -16,12 +16,15 @@ header nav {
   margin-right: 20px;
   margin-top: 20px;
 }
+header nav .hovernav:hover {
+  color: red;
+}
 
 h1 {
   text-align: center;
   margin-top: 20px;
   margin-bottom: 20px;
-  font-size: 100px;
+  font-size: 50px;
   color: #305CAA;
 }
 
@@ -36,10 +39,19 @@ h2 {
 p {
   text-align: center;
   justify-content: center;
-  margin: 40px;
+  margin: 20px;
   font-size: 20px;
 }
 
+.p_nosotros {
+  margin-top: 150px;
+}
+
+@media (max-width: 767px) {
+  .p_nosotros {
+    margin-top: 20px;
+  }
+}
 footer {
   background-color: #305CAA;
   width: 100%;

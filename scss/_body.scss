@@ -1,0 +1,31 @@
+h1{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 50px;
+    color: $principal-color;
+}
+
+h2{
+    text-align: center;
+    display: flex;
+    display: block;
+    color: $principal-color;
+    font-size: 40px;
+}
+
+p{
+    text-align: center;
+    justify-content: center;
+    margin: 20px;
+    font-size: 20px;
+}
+.p_nosotros{
+    margin-top: 150px;
+
+}
+
+@media (max-width: 767px) {
+    .p_nosotros {
+        margin-top: 20px;    }
+    }
